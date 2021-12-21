@@ -6,12 +6,13 @@ layout: default_ini
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
     {% else %}
-    <header class="masthead">
-        {% endif %}
-        <div style="margin: auto; width: 50%; display: flex; justify-content: center;  ">
+    <div style="margin: auto; width: 50%; display: flex; justify-content: center;  padding-top: 20px">
             <a href="../index_ger"><img src="../img/germany.jpg" width="80%" align="left"></a>
             <a href="../index_rom"><img src="../img/roman.jpg" width="80%" align="right"></a>
         </div>
+    <header class="masthead">
+        {% endif %}
+        
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
