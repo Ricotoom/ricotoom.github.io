@@ -2,18 +2,26 @@
 
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-  {% include navbar_ger.html %}
+        {% include navbar_ger.html %}
 
- {{content}}
-    
-  {% include footer.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
 
-  {% include scripts.html %}
+                    {{ content }}
 
-</body>
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+        {% include scripts.html %}
+
+    </body>
 
 </html>
