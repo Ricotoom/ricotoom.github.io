@@ -2,7 +2,7 @@ title:              Bianca and Ricardo say YES
 email:              ricardothoma@hotmail.de
 description:        Informationen zur Hochzeit
 author:             Ricardo Thoma
-baseurl:            "https://ricotoom.github.io"
+baseurl:            ""
 url:                "https://ricotoom.github.io"
 
 # Social Profiles
@@ -18,7 +18,7 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 # Build settings
 markdown:           kramdown
 paginate:           5
-paginate_path:      "index.html"
+paginate_path:      ""
 plugins:
   - jekyll-feed
   - jekyll-paginate
