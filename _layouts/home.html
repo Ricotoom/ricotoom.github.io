@@ -2,24 +2,6 @@
 layout: default_ini
 ---
 
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
 
 <!-- Page Header -->
 {% if page.background %}
@@ -34,11 +16,11 @@ layout: default_ini
           <div class="page-heading">
             <h1>{{ site.title }}</h1>
               
-            <div class="row">
-                <div class="column">
+            <div style="content: ""; clear: both; display: table;">
+                <div style="float: left;padding: 5px;">
                     <a href="{{"/home_german" | relative_url }}"> <img src="../img/germany.jpg" style="width: 50%;"> </a>
                 </div>
-                <div class="column">
+                <div style="float: left;padding: 5px;">
                     <a href="{{"/home_roman" | relative_url }}"> <img src="../img/roman.jpg" style="width: 50%;"> </a>
                 </div>
             </div>
