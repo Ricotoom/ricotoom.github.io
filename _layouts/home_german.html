@@ -14,11 +14,9 @@ layout: default
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>{{ site.title }}</h1>
-              
-            <span>
-                <a class="nav-link" href="{{"/home_german" | relative_url }}"> <img src="german.jpg"> </a>
-            </span>
-
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
               
           </div>
         </div>
